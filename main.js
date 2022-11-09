@@ -1,3 +1,3 @@
 function saludo() {
-  alert("hola mani");
+  alert("hola mani, todo bien?");
 }
