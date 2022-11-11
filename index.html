@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Document</title>
   </head>
   <body>
@@ -14,10 +16,15 @@
         <div class="nav">
           <ul class="nav__list">
             <li class="nav__items">
-              <a href="">Inicio</a>
+              <a href="">Home</a>
               <a href="">About</a>
-              <a href="">Information</a>
+              <a href="">Service</a>
+              <a href="">Project</a>
+              <a href="">Team</a>
+              <a href="">Blog</a>
               <a href="">Contact</a>
+              <a href=""><i class='bx bx-cart bx-sm'></i></a>
+              <a href=""><i class='bx bx-search-alt bx-sm'></i></a>
             </li>
           </ul>
         </div>
@@ -25,20 +32,32 @@
     </header>
     <section>
       <article class="contents">
-        <p class="contents__title">Consul Yourt Business With Us</p>
-        <p class="contents__text">
-          We are the unique Consultancy Farm your business solution, That is
-          ready to take challenge and knockout your business problems
-        </p>
-        <input
-          type="button"
-          class="btn btn-primary"
-          onclick="saludo()"
-          value="click me"
-        />
+        <div class="contents_view">
+
+          <p class="contents__title">Consult Yourt Business With Us</p>
+          <p class="contents__text">
+            We are the unique Consultancy Farm your business solution, That is
+            ready to take challenge and knockout your business problems
+          </p>
+          <div class="contents__buttons">
+            <input
+              type="button"
+              class="btn btn-primary"
+              onclick="saludo()"
+              value="GET STARTED"
+            />
+            <input
+              type="button"
+              class="btn btn-primary"
+              onclick="saludo()"
+              value="EXPLORE MORE"
+            />
+          </div>
+        </div>
+     
       </article>
     </section>
-
+ 
     <script src="main.js"></script>
   </body>
 </html>
